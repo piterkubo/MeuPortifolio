@@ -1,0 +1,150 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container-fluid {
+    background-color: black;
+}
+
+.titulos {
+    color: yellowgreen;
+}
+
+.sobre_mim {
+    color: yellowgreen;
+    margin-bottom: 20px;
+}
+
+.sobre_mim .foto_perfil {
+    width: 30%;
+    max-width: 350px;
+    height: auto;
+    border-style: groove;
+    border-color: white;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.sobre_mim .artigo_1 {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.msg {
+    color: yellowgreen;
+    margin-bottom: 20px;
+    text-align: center; 
+}
+
+.msg .img_notebook {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    margin-right: 20px;
+    margin-bottom: 20px; 
+}
+
+.msg .artigo_2 {
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.servicos {
+    background-color: greenyellow;
+    padding: 20px;
+    margin-bottom:20px;
+}
+
+.titulo-servicos {
+    font-weight: bold;
+}
+
+.servicos p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.devops {
+    background-color: black;
+    color: yellowgreen;
+    padding: 20px;
+    margin-top: -30px;
+}
+
+.titulo-devops {
+    font-weight: bold;
+}
+
+.devops p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.developer-icons {
+    background-color: #fffafa;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.developer-icons .titulo_icons {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.developer-icons .img_logos_tec {
+    width: 60px;
+    height: 70px;
+    margin: 10px;
+}
+
+.img-projetos {
+    padding: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.img-projetos a {
+    display: inline-block;
+    margin: 10px 20px; 
+    
+    
+}
+
+
+.rodape {
+    padding: 20px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .sobre_mim {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sobre_mim .foto_perfil {
+        margin-right: 0;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .msg {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .msg .img_notebook {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .developer-icons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-projetos {
+        flex-direction: column;
+    }
+}
