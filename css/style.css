@@ -117,8 +117,8 @@
     }
 
     .photo{
-      width:260px;
-      height:260px;
+      width:30px;
+      height:30px;
       border-radius:50%;
       background:#1e293b;
       display:flex;
